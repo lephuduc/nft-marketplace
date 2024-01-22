@@ -65,7 +65,7 @@ const Create = ({onClick}) => {
       {/* <button class="default-button" style="width: 80px; height: 30px; color: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255); background-color: transparent;">Buy Now</button> */}
 
       <div className="buttons">
-          <button className="buy-now">Buy</button>
+          {/* <button className="buy-now">Buy</button> */}
           <div className="like-container">
             <button  id="like" className={isLike ? 'isLike' : ''} onClick={toggleLike}>
               {!isLike ? (
@@ -99,7 +99,7 @@ const Create = ({onClick}) => {
       </div>
       
       <div className="buttons">
-          <button className="buy-now">Buy</button>
+          {/* <button className="buy-now">Buy</button> */}
          
           <div className="like-container">
             <button  id="like" className={isLike ? 'isLike' : ''} onClick={toggleLike}>
